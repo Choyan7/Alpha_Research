@@ -1,0 +1,393 @@
+body{
+    background: #f6f6f6;
+}
+.mb-30{margin-bottom: 30px;}
+
+/* header area start */
+
+.header-area{}
+.header-area .logo {
+    padding: 20px 0;
+}
+.header-area .coach-button{
+    padding: 10px 0;
+}
+.header-area .coach-button a {
+    float: right;
+    text-decoration: none;
+    background: #f3675c;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* header area end */
+
+/* hero area start */
+
+.hero-area{}
+.hero-area .container {
+    padding: 105px 60px;
+}
+.hero-area .title{}
+.hero-area .title h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.hero-area .title h2 span {
+    color: #f3675c;
+}
+.hero-area .form-area {
+    text-align: center;
+}
+.hero-area .form-area input {
+    width: 300px;
+    height: 55px;
+    border: 0;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+.hero-area .form-area button {
+    border: 0;
+    padding: 15px 35px;
+    background: #f3675c;
+    border-radius: 15px;
+}
+
+/* hero area end */
+
+/* search box start */
+
+.search-box{}
+.search-box .filter {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.search-box .filter i{
+    font-size: 20px;
+    color: #f3675c;
+}
+.search-box .filter h4{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.search-box .text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.search-box .text .text1 {
+    background: #fff;
+    padding: 20px 90px;
+    margin-right: 20px;
+    position: relative;
+}
+.search-box .text .text1::before {
+    position: absolute;
+    background: #cfcece;
+    height: 15px;
+    width: 15px;
+    top: -6px;
+    right: -6px;
+    content: "";
+    border-radius: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+.search-box .text .text1 a {
+    position: absolute;
+    content: "";
+    top: -7px;
+    text-decoration: none;
+    right: -5px;
+    color: #fff;
+    font-size: 12px;
+    transition: .3s;
+    display: none;
+}
+.search-box .text .text1:hover:before{
+    opacity: 1;
+}
+.search-box .text .text1:hover{
+    box-shadow: 0px 9px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+}
+.search-box .text .text1:hover a{
+    display: block;
+}
+.search-box .text .text2 {
+    background: #fff;
+    padding: 20px 90px;
+    margin-right: 20px;
+    position: relative;
+}
+.search-box .text .text2::before {
+    position: absolute;
+    background: #cfcece;
+    height: 15px;
+    width: 15px;
+    top: -6px;
+    right: -6px;
+    content: "";
+    border-radius: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+.search-box .text .text2 a {
+    position: absolute;
+    content: "";
+    top: -7px;
+    right: -5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    transition: .3s;
+    display: none;
+}
+.search-box .text .text2:hover:before{
+    opacity: 1;
+}
+.search-box .text .text2:hover{
+    box-shadow: 0px 9px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+}
+.search-box .text .text2:hover a{
+    display: block;
+}
+.search-box .text .text3 {
+    background: #fff;
+    padding: 20px 90px;
+    position: relative;
+}
+.search-box .text .text3::before {
+    position: absolute;
+    background: #cfcece;
+    height: 15px;
+    width: 15px;
+    top: -6px;
+    right: -6px;
+    content: "";
+    border-radius: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+.search-box .text .text3 a {
+    position: absolute;
+    content: "";
+    top: -7px;
+    right: -5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    transition: .3s;
+    display: none;
+}
+.search-box .text .text3:hover:before{
+    opacity: 1;
+}
+.search-box .text .text3:hover{
+    box-shadow: 0px 9px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+}
+.search-box .text .text3:hover a{
+    display: block;
+}
+
+.search-box .results {
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.search-box .results i{
+    font-size: 20px;
+    color: #f3675c;
+}
+.search-box .results h4{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+/* search box end */
+
+
+/* coach area start */
+
+.coach{}
+.coach .row {
+    padding-bottom: 30px;
+}
+.coach .section {
+    text-align: center;
+    background: #fff;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    box-shadow: 0px 9px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+.coach .section .img{}
+.coach .section .text{}
+.coach .section .text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.coach .section .text .baker {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #f3675c;
+    font-weight: bold;
+    padding: 0;
+}
+.coach .section .text .para {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.coach .section i {
+    color: #f3675c;
+    font-size: 15px;
+}
+.coach .section span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 7px;
+    color: #666;
+}
+.coach .section p{
+    font-family: 'Roboto', sans-serif;
+}
+.coach .section .text .zip {
+    text-align: left;
+    display: flex;
+    padding-left: 57px;
+    padding-top: 10px;
+}
+.coach .section .text .zip p {
+    padding-left: 10px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 300;
+}
+.coach .section .button {}
+.coach .section .button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background: #f3675c;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .3s;
+    display: none;
+}.coach .section:hover .button a{
+    display: inline-block;
+}
+.coach .section:hover{}
+
+
+
+/* coach area end */
+
+/* page nav start */
+
+.page-nav .paginav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 70px 0;
+}
+.page-nav .paginav .prev {
+    border-bottom: 1px solid #666;
+}
+.page-nav .paginav .prev::before{}
+.page-nav .paginav .next {
+    border-bottom: 1px solid #666;
+}
+.page-nav .paginav .page-numbers {
+    text-decoration: none;
+    color: #666;
+    margin-left: 25px;
+    display: inline-block;
+    transition: .3s;
+}
+.page-nav .paginav .page-numbers:hover{
+    background: #f3675c;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+}
+.page-nav .paginav .current {
+    background: #f3675c;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+}
+
+/* page nav end */
+
+/* footer start start */
+
+.footer {
+    background: #f3675c;
+}
+.footer .logo{}
+.footer .logo img {
+    margin-top: 55px;
+}
+.footer .text {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.footer .copy {
+    font-family: 'Roboto', sans-serif;
+    color: #e1e1e1;
+    font-weight: 300;
+}
+.footer .icon {
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.footer .icon a{
+    text-decoration: none;
+}
+.footer .icon i {
+    color: #fff;
+    margin-right: 35px;
+    font-size: 16px;
+}
+.footer .icon i.icofont-twitter {
+    color: black;
+}
+
+/* footer start end */
+

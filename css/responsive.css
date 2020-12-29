@@ -1,0 +1,124 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .hero-area .form-area input {
+        margin-right: 6px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .hero-area {
+        background-size: cover;
+    }
+    .coach .section {
+        margin-bottom: 30px;
+    }
+    .coach .section .text .zip {
+        padding-left: 136px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-area .form-area input {
+        margin-bottom: 20px;
+    }
+    .hero-area .form-area button {
+        display: block;
+        margin-left: 255px;
+    }
+    .search-box .text {
+        display: inline-grid;
+    }
+    .search-box .text .text1 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text2 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text3 {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .coach .section .text .zip {
+        padding-left: 257px;
+    }
+    .coach .section {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .header-area .coach-button a {
+        padding: 10px 35px;
+    }
+    .hero-area .form-area input {
+        width: 210px;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+    .search-box .text {
+        display: inline-grid;
+    }
+    .search-box .text .text1 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text2 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text3 {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .coach .section {
+        margin-bottom: 30px;
+    }
+    .coach .section .text .zip {
+        padding-left: 76px;
+    }
+    .page-nav .paginav .page-numbers {
+        margin-left: 10px;
+    }
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-area .form-area input {
+        margin-bottom: 20px;
+    }
+    .hero-area .form-area button {
+        display: block;
+        margin-left: 255px;
+    }
+    .search-box .text {
+        display: inline-grid;
+    }
+    .search-box .text .text1 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text2 {
+        margin-bottom: 20px;
+    }
+    .search-box .text .text3 {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .coach .section {
+        margin-bottom: 30px;
+    }
+    .coach .section .text .zip {
+        padding-left: 166px;
+    }
+
+
+}
